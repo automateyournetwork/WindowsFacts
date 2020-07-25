@@ -1,0 +1,123 @@
+---
+architecture:
+bios_date:
+bios_version:
+date_time:
+    date:
+    day:
+    epoch:
+    hour:
+    iso8601:
+    iso8601_basic:
+    iso8601_basic_short:
+    iso8601_micro:
+    minute:
+    month:
+    second:
+    time:
+    tz:
+    tz_offset:
+    weekday:
+    weekday_number:
+    weeknumber:
+    year:
+distribution:
+distribution_major_version:
+distribution_version:
+domain:
+env:
+    ALLUSERSPROFILE:
+    APPDATA:
+    COMPUTERNAME:
+    CV_Instance001:
+    ComSpec:
+    CommonProgramFiles:
+    CommonProgramFiles(x86):
+    CommonProgramW6432:
+    DEFLOGDIR:
+    FP_NO_HOST_CHECK:
+    HOMEDRIVE:
+    HOMEPATH:
+    LOCALAPPDATA:
+    LOGONSERVER:
+    NUMBER_OF_PROCESSORS:
+    OS:
+    PATHEXT:
+    PROCESSOR_ARCHITECTURE:
+    PROCESSOR_IDENTIFIER:
+    PROCESSOR_LEVEL:
+    PROCESSOR_REVISION:
+    PROMPT:
+    PSExecutionPolicyPreference:
+    PSModulePath:
+    PUBLIC:
+    Path:
+    ProgramData:
+    ProgramFiles:
+    ProgramFiles(x86):
+    ProgramW6432:
+    SystemDrive:
+    SystemRoot:
+    TEMP:
+    TMP:
+    UATDATA:
+    USERDNSDOMAIN:
+    USERDOMAIN:
+    USERDOMAIN_ROAMINGPROFILE:
+    USERNAME:
+    USERPROFILE:
+    windir:
+fqdn:
+gather_subset:
+- all
+hostname:
+interfaces:
+-   connection_name:
+    default_gateway:
+    dns_domain:
+    interface_index:
+    interface_name:
+    macaddress:
+ip_addresses:
+- ipv4
+- ipv6
+kernel:
+lastboot:
+machine_id:
+memtotal_mb:
+module_setup:
+netbios_name:
+nodename:
+os_family:
+os_name:
+os_product_type:
+owner_contact:
+owner_name:
+powershell_version:
+processor:
+- Make
+- Type
+- Make
+- Type
+processor_cores:
+processor_count:
+processor_threads_per_core:
+processor_vcpus:
+product_name:
+product_serial:
+reboot_pending:
+swaptotal_mb:
+system:
+system_description:
+system_vendor:
+uptime_seconds:
+user_dir:
+user_gecos:
+user_id:
+user_sid:
+virtualization_role:
+virtualization_type:
+win_rm_certificate_expires:
+windows_domain:
+windows_domain_member:
+windows_domain_role:

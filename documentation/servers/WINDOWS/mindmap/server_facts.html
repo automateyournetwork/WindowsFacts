@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/d3@5"></script><script src="https://cdn.jsdelivr.net/npm/markmap-lib@0.6.1/dist/view.min.js"></script>
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script>markmap.markmap('svg#mindmap',{"t":"heading","d":1,"v":"Servers","c":[{"t":"thead","d":2,"v":"","c":[{"t":"th","d":3,"v":"Hostname"},{"t":"th","d":3,"v":"Domain"},{"t":"th","d":3,"v":"Domain Member"},{"t":"th","d":3,"v":"Domain Role"},{"t":"th","d":3,"v":"OS"},{"t":"th","d":3,"v":"Major Version"},{"t":"th","d":3,"v":"Version"},{"t":"th","d":3,"v":"Architecture"},{"t":"th","d":3,"v":"Bios Date"},{"t":"th","d":3,"v":"Bios Version"},{"t":"th","d":3,"v":"Connection Names"},{"t":"th","d":3,"v":"Interface Names"},{"t":"th","d":3,"v":"IPv4"},{"t":"th","d":3,"v":"IPv6"},{"t":"th","d":3,"v":"Default Gateway"},{"t":"th","d":3,"v":"MAC Address"},{"t":"th","d":3,"v":"Last Boot"},{"t":"th","d":3,"v":"Reboot Pending"},{"t":"th","d":3,"v":"Uptime Seconds"},{"t":"th","d":3,"v":"Machine ID"},{"t":"th","d":3,"v":"Total Memory (MB)"},{"t":"th","d":3,"v":"Processors"},{"t":"th","d":3,"v":"Processor Cores"},{"t":"th","d":3,"v":"Processor Count"},{"t":"th","d":3,"v":"Product Name"}]},{"t":"tbody","d":2,"v":"","c":[{"t":"td","d":3,"v":"SERVERNAME@MY.DOMAIN.COM"},{"t":"td","d":3,"v":"MY.DOMAIN.COM"},{"t":"td","d":3,"v":"True"},{"t":"td","d":3,"v":"Member server"},{"t":"td","d":3,"v":"Microsoft Windows Server 2012 R2 Standard"},{"t":"td","d":3,"v":"6"},{"t":"td","d":3,"v":"6.3.9600.0"},{"t":"td","d":3,"v":"64-bit"},{"t":"td","d":3,"v":"12/11/2018"},{"t":"td","d":3,"v":"6.00"},{"t":"td","d":3,"v":"'Ethernet 2'"},{"t":"td","d":3,"v":"'vmxnet3 Ethernet Adapter'"},{"t":"td","d":3,"v":"192.168.1.100"},{"t":"td","d":3,"v":"fe80::AAAA:AAAA:AAAA:AAAA"},{"t":"td","d":3,"v":"'192.168.1.1'"},{"t":"td","d":3,"v":"'00:00:00:00:00:00'"},{"t":"td","d":3,"v":"2020-07-18 03:25:40Z"},{"t":"td","d":3,"v":""},{"t":"td","d":3,"v":"656014"},{"t":"td","d":3,"v":"S-1-1-11-1111111111-1111111111-1111111111"},{"t":"td","d":3,"v":"4096"},{"t":"td","d":3,"v":"Intel(R) Xeon(R) CPU E5-2660 0 @ 2.20GHz"},{"t":"td","d":3,"v":"1"},{"t":"td","d":3,"v":"2"},{"t":"td","d":3,"v":"VMware Virtual Platform"}]}]}).fit()</script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+# Servers
+| Hostname | Domain | Domain Member | Domain Role | OS | Major Version | Version | Architecture | Bios Date | Bios Version | Connection Names | Interface Names | IPv4 | IPv6 | Default Gateway | MAC Address | Last Boot | Reboot Pending | Uptime Seconds | Machine ID | Total Memory (MB) | Processors | Processor Cores | Processor Count | Product Name |
+| -------- | ------ | ------------- | ----------- | -- | ------------- | ------- | ------------ | --------- | ------------ | ---------------- | --------------- | ---- | ---- | --------------- | ----------- | --------- | -------------- | -------------- | ---------- | ----------------- | ---------- | --------------- | --------------- | ------------ |

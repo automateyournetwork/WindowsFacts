@@ -1,0 +1,8 @@
+---
+
+ansible_user: "{{hostvars[inventory_hostname]['windows_user']}}"
+ansible_password: "{{hostvars[inventory_hostname]['windows_password']}}"
+ansible_winrm_scheme: http
+ansible_port: 5985
+ansible_connection: winrm
+ansible_winrm_transport: kerberos
