@@ -13,7 +13,7 @@ Copywrite John Capobianco July 25,2020
 
 ## Instructions for Linux users
 
-### Linux / Ansibe Host prequisites
+### Linux / Ansible Host prequisites
 
 These playbooks have been developed and tested under Ansble 2.9.1 on CentOS 7.8.2003
 
