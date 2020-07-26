@@ -171,7 +171,7 @@
 # Format Markdown #
     - name: Format Markdown File Clean Up
       replace:
-        path: ../documentation/SERVERS/WINDOWS/csv/server_facts.csv
+        path: ../documentation/SERVERS/WINDOWS/markdown/server_facts.md
         regexp: "'"
         replace: ''
       delegate_to: localhost
