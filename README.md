@@ -74,7 +74,7 @@ pip install pywinrm[kerberos]
 
 #### Install steps - Ubuntu
 
-1. Update Ubuntu - this step will take some time. 
+1. Update Ubuntu - this step will take some time.
 
 $ sudo apt update
 $ sudo apt-get upgrade -y
@@ -209,9 +209,9 @@ sudo ln -s /bin/true /usr/bin/sleep
 
 ## Run the playbook(s)
 
-1. Update your hosts file and include the Windows hostname under [Windows]. If FQDN is required for the Ansible Linux host please use the FQDN. 
+1. Update your hosts file and include the Windows hostname under [WINDOWS]. If FQDN is required for the Ansible Linux host please use the FQDN.
 
-[Windows]
+[WINDOWS]
 
 yourhost.your.domain.com
 
