@@ -40,7 +40,7 @@
       copy: 
         content: | 
           {% for host in ansible_play_hosts %}
-          {{ ansible_facts | to_nice_json }}
+          {{ hostname[host].ansible_facts | to_nice_json }}
           {% endfor %}
         dest: ../documentation/SERVERS/WINDOWS/json/server_facts.json       
       delegate_to: localhost
@@ -51,7 +51,7 @@
       copy: 
         content: | 
           {% for host in ansible_play_hosts %}
-          {{ ansible_facts | to_nice_yaml }}
+          {{ hostname[host].ansible_facts | to_nice_yaml }}
           {% endfor %}
         dest: ../documentation/SERVERS/WINDOWS/yaml/server_facts.yml
       delegate_to: localhost
